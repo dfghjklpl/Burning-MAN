@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+header{
+    height: 900px;
+    background: url(./assets/img/header-bg.jpg);
+}
+.header__nav{
+    padding-top: 57px;
+    display: flex;
+    align-items: center;
+}
+.header__nav-list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 69px;
+}
+.header__list-item, .header__nav-link{
+    text-decoration: none;
+    color: #FFF;
+font-family: Anton;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+text-transform: uppercase;
+}
+.header__nav-link{
+    margin-left: 623px;
+}
+.header__intro-suptitle{
+    color: #FFF;
+font-family: Anton;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+.header__intro-title{
+    color: #FFF;
+font-family: Anton;
+font-size: 100px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.header__intro-btn{
+    padding: 18px 23px;
+    border: 1px solid #FFF;
+    background: transparent;
+    color: #FFF;
+text-align: center;
+font-family: Anton;
+font-size: 17px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.7px;
+text-transform: uppercase;
+}
+.header__intro{
+    margin-top: 216px;
+}
+.about__title{
+    margin-top: 113px;
+    color: #000;
+font-family: Anton;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.about__box-title{
+    color: #000;
+font-family: Anton;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+.about__box-txt{
+    color: #000;
+text-align: justify;
+font-family: Open Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 162.682%; /* 26.029px */
+}
+.about__info{
+    margin-top: 74px;
+    display: flex;
+    gap: 36px;
+}
